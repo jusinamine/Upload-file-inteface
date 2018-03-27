@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.drag-drop { /* div upload -- first div */ 
+    width: 689px;
+    height: 358px;
+    background-color: #ececea;
+    font-family: 'Varela Round', sans-serif;
+    border: 3.79px #747474 dashed;
+    top: 50%;
+    left: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+   
+
+}
+.drag-drop:hover  {   
+    
+    border: 3.79px #5bbbeb dashed;
+}
+
+.drag-drop:hover  #text1{
+    color: #5bbbeb;
+}
+
+.drag-drop:hover  #text2{
+    color: #5bbbeb;
+}
+#image-upload{
+    background: url("http://d.up-00.com/2018/03/152180653163181.png");
+    background-size: 150px 150px;
+
+    background-repeat: no-repeat;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    
+}
+
+#text1{ 
+    text-align: center;
+    margin-top: 25%;
+    font-size: 28px;
+    color: #909090;
+    margin-top: 2%;
+}
+
+#text2{
+    text-align: center;
+    
+    font-size: 28px;
+    color: #909090;
+
+}
+#input-button{ /* div of buttoon input file */ 
+    width: 376px;
+    height: 50px;
+    
+    background-color: #747474;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;   
+    z-index: 1;
+    box-shadow: 0px 4px 8px 0 rgba(13, 13, 13, 0.13);
+    
+}
+#input-button:hover{
+    background-color: #5bbbeb;
+}
+
+#input-button p{
+    font-size: 20px;
+    text-align: center;
+    color: #fff ;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#file-input{  /*button input file */ 
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+
+#box-button{
+    width: 689px;
+    height: 358px;
+    top: 50%;
+    left: 50%;
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+#box-button h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    color: #747474;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#upload-button{
+    width: 150px;
+    height: 60px;
+    margin: auto;
+    background-color: #747474;
+    border: none;
+    display: block;
+    border-radius: 7px;  
+    position: relative;
+    margin: auto;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px 0 rgba(13, 13, 13, 0.13);
+}
+#upload-button:hover{
+    background-color: #5bbbeb;
+}
+
+
+#upload-button p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+       
+}
+
+.drag-over{ /* when u darg over */
+    
+    border-color: #5bbbeb; 
+}
+
+
+
