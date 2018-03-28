@@ -1,5 +1,5 @@
 
-$(document).ready(function(){ /* Function return number of files selected or name of file */ 
+$(document).ready(function(){ // Function return number of files selected or name of file 
     $("#file-input").on("change", function(){
         var files = $(this)[0].files;
         var isImage = 1;
@@ -30,6 +30,10 @@ $(document).ready(function(){ /* Function return number of files selected or nam
         
 
     });
+});
+
+$('#drag-drop').on('click', function() { // div input file -- if u click
+    $('#file-input').trigger('click');
 });
 
 $(document).ready(function(){ /* for drop file into div drag-drop */
